@@ -2,6 +2,11 @@
 ## API de FastAPI con SQLModel
 API que gestiona Empleados y Departamentos con una base de datos SQLite o PostgreSQL.
 
+### Clonar repositorio
+```
+git clone https://github.com/gonnzaxx/APIGestorEmpleados.git
+```
+
 ### Construir la imagen de Docker
 En el directorio raíz de tu proyecto (donde se encuentra el archivo Dockerfile), ejecuta el siguiente comando para construir la imagen Docker:
 
