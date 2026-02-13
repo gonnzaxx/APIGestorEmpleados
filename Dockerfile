@@ -1,7 +1,6 @@
 FROM python:3.12-alpine
 
 WORKDIR /code
-COPY .env /code/.env
 COPY requirements.txt /code/requirements.txt
 COPY ./app /code/app
 
