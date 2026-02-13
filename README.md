@@ -17,6 +17,6 @@ docker run -d -p 8000:8000 empleados_api
 
 Utilizando PostgreeSQL:
 ```
-docker run -d -p 8000:8000 -e DATABASE_URL="postgresql://usuario:password@host:5432/nombre_bd" -e DEBUG="False" empleados_api
+docker run -d -p 8000:8000  -e DATABASE_URL="postgresql://postgres:123456@127.0.0.1:5432/empleados_db"  empleados_api
 ```
 
