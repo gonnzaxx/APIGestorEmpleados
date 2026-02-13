@@ -12,7 +12,7 @@ app.include_router(departments.router)
 app.include_router(employees.router)
 
 
-
+#
 def init_db():
     SQLModel.metadata.create_all(engine)
 
