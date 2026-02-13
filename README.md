@@ -15,7 +15,8 @@ Utilizando SQLite:
 docker run -d -p 8000:8000 empleados_api
 ```
 
-En el caso de no tener PostgreSQL instalado, utilizar estos comandos para ejecutar un contenedor:
+Utilizando PostgreSQL:
+  En el caso de no tener PostgreSQL instalado, utilizar estos comandos para ejecutar el contenedor:
 
 ```
 docker network create empleados-network
