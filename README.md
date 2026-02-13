@@ -12,7 +12,7 @@ docker build -t empleados_api .
 ### Ejecutar el contendor Docker
 Utilizando SQLite: 
 ```
-docker run -d -p 8000:8000 empleados_api
+docker run -d -p 8000:8000 --name APIempleadosSQLite empleados_api
 ```
 
 Utilizando PostgreSQL:
