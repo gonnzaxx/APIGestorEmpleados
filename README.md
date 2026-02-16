@@ -69,6 +69,21 @@ docker run -d --name APIempleados --network empleados-network -p 8000:8000 -e DA
 
 - Swagger/OpenAPI
 - Git/Github
+
+## Requisitos
+Para Ejecución Local (sin Docker)
+
+- Python 3.11 o superior
+- pip (gestor de paquetes de Python)
+- SQLite (incluido por defecto en Python)
+- PostgreSQL 15+ (opcional, solo si quieres usar PostgreSQL localmente)
+
+Para Ejecución con Docker
+
+- Docker Desktop 20.10 o superior
+- 4 GB de RAM mínimo
+- 2 GB de espacio en disco para imágenes Docker
+
 ## Estructura del Proyecto
 
 ```
