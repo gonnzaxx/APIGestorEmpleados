@@ -1,7 +1,10 @@
 # API REST Gestor de Empleados
 > API de Gestión de Empleados y Departamentos es una API REST desarrollada con FastAPI que permite gestionar la información de empleados y departamentos de una organización de manera eficiente y escalable.
 
-![Python](https://img.shields.io/badge/.NET-MAUI-purple?style=flat-square&logo=dotnet)
+![Python]([https://img.shields.io/badge/Docker-Ready-blue?style=flat-square&logo=docker](https://img.shields.io/badge/python-purple?style=flat-square&logo=python))
+![Docker](https://img.shields.io/badge/Docker-Ready-blue?style=flat-square&logo=docker)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Supported-blue?style=flat-square&logo=postgresql)
+![SQLite](https://img.shields.io/badge/SQLite-Supported-lightgrey?style=flat-square&logo=sqlite)
 
 ## Instalación
 ### Clonar repositorio
