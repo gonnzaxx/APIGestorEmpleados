@@ -1,5 +1,5 @@
 # API REST Gestor de Empleados
-> API REST que gestiona Empleados y Departamentos con base de datos SQLite o PostgreSQL.
+> API de Gestión de Empleados y Departamentos es una API REST desarrollada con FastAPI que permite gestionar la información de empleados y departamentos de una organización de manera eficiente y escalable.
 
 ![Python](https://img.shields.io/badge/.NET-MAUI-purple?style=flat-square&logo=dotnet)
 
@@ -35,6 +35,15 @@ docker run -d --name APIempleados_postgres --network empleados-network -e POSTGR
 ```
 docker run -d --name APIempleados --network empleados-network -p 8000:8000 -e DATABASE_URL="postgresql://postgres:123456@APIempleados_postgres:5432/empleados_db" empleados_api
 ```
+
+### Características
+- CRUD Completo: Operaciones de Crear, Leer, Actualizar y Eliminar para empleados y departamentos
+- Relaciones de Datos: Gestión de relaciones uno-a-muchos entre departamentos y empleados
+- Base de Datos Flexible: Soporte para SQLite (desarrollo) y PostgreSQL (producción)
+- Dockerizado: Fácil despliegue mediante contenedores Docker
+- Documentación Automática: Interfaz Swagger UI interactiva incluida
+- Arquitectura Limpia: Separación de capas (modelos, schemas, servicios, routers)
+- CRUD básico de empleados y departamentos
 
 ### Tecnologías y librerías
 - Python 3.12
