@@ -1,11 +1,11 @@
 # API REST Gestor de Empleados
 > API de Gestión de Empleados y Departamentos es una API REST desarrollada con FastAPI que permite gestionar la información de empleados y departamentos de una organización de manera eficiente y escalable.
 
-![Python](https://img.shields.io/badge/python-purple?style=flat-square&logo=python)
-![FastAPI](https://img.shields.io/badge/FastAPI-white?style=flat-square&logo=fastapi)
-![Docker](https://img.shields.io/badge/Docker-Ready-blue?style=flat-square&logo=docker)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Supported-blue?style=flat-square&logo=postgresql)
-![SQLite](https://img.shields.io/badge/SQLite-Supported-lightgrey?style=flat-square&logo=sqlite)
+[![Python](https://img.shields.io/badge/python-3670A0?style=flat-square&logo=python&logoColor=ffdd54)](https://www.python.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat-square&logo=fastapi)](https://fastapi.tiangolo.com/)
+[![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)](https://www.docker.com/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+[![SQLite](https://img.shields.io/badge/SQLite-07405E?style=flat-square&logo=sqlite&logoColor=white)](https://www.sqlite.org/)
 
 ## Instalación
 ### Clonar repositorio
